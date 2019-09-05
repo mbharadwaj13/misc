@@ -1,1 +1,3 @@
-solarLab
+# CalSol Electrical Workshop
+## Lab X: Solar
+
