@@ -12,7 +12,7 @@ Photoelectric effect:
 * Main principle of making solar cells work
 * Photon (must have energy greater than the band gap) excites an electron from valence to conduction band
 * This creates an electron hole pair, and thus adds free carriers to the system
-* After a photon has sufficient wavelength to excite the cell, increasing number of photons increases power generation (photon downshifting can make use of higher energy photons by turning them into multiple lower energy, but still sufficiently energized, electrons, but that is beyond the scope of this discussion. Talk to homi Zach for some good times if your interested)
+* After a photon has sufficient wavelength to excite the cell, increasing number of photons increases power generation (photon downshifting can make use of higher energy photons by turning them into multiple lower energy, but still sufficiently energized, electrons, but that is beyond the scope of this discussion.)
 
 How a solar cell works::
 * Generation → Separation →Transport 
@@ -32,16 +32,16 @@ Types of solar cells:
 ### Section 2: IV Curves and MPPTs
 What is an IV curve?
 * Solar cell performance is characterized by an IV curve
-** The IV curve essentially demonstrates the output current of the solar cell as a function of various load voltages
-** Different factors can alter both the shape of the curve and its intercepts
+* The IV curve essentially demonstrates the output current of the solar cell as a function of various load voltages
+* Different factors can alter both the shape of the curve and its intercepts
 * Goal: get the maximum power (where P=IV) from the solar cell
 * On the IV curve, the power output at any given point is the integral of the curve
 * Components of IV curve
-** V<sub>oc</sub>: open circuit voltage
-** I<sub>sc</sub>: short circuit current
-*** I<sub>sc</sub> varies based on the amount of solar radiation
-** Max power point: point on the curve (a specific (V,I) pair) where P=IV is greatest (in other words, where the integral is greatest
-** Fill factor (FF): the ratio of the power at a given point to the maximum theoretical power, which is given by V<sub>oc</sub>  x I<sub>sc</sub> (see diagram)
+* V<sub>oc</sub>: open circuit voltage
+* I<sub>sc</sub>: short circuit current
+* I<sub>sc</sub> varies based on the amount of solar radiation
+* Max power point: point on the curve (a specific (V,I) pair) where P=IV is greatest (in other words, where the integral is greatest
+* Fill factor (FF): the ratio of the power at a given point to the maximum theoretical power, which is given by V<sub>oc</sub>  x I<sub>sc</sub> (see diagram)
 * The efficiency of a cell is given by the max power over the input solar irradiance
 
 IV Curve Tester: we have two! One in Supernode, and one at the RFS need to go to the RFS and test during the day
@@ -51,8 +51,8 @@ IV Curve Tester: we have two! One in Supernode, and one at the RFS need to go to
 
 MPPTs:
 * MPPTs (Maximum Power Point Trackers) are DC-DC converters, and they serve two main purposes:
-** Find the maximum power point in the changing conditions of the cells.
-** Regulate the voltage to help charge the batteries
+* Find the maximum power point in the changing conditions of the cells.
+* Regulate the voltage to help charge the batteries
 * The optimum battery voltage may be different than the V<sub>mp</sub> (voltage at max power), so the MPPTs can alter voltage to account for this.
 
 Practice Problem!
@@ -80,13 +80,13 @@ Handling solar panels:
 **Solder a solar panel:**
 * Work in groups of 2 or 3 and get a spare solar panel 
 * Make 2 pieces of wire
-** Cut 2 pieces of approximately 7 inch length flat wire
-** Wrap in one layer of kapton tape (electrically insulating)
-** Wrap in one layer of tesa (abrasion resistant)
+* Cut 2 pieces of approximately 7 inch length flat wire
+* Wrap in one layer of kapton tape (electrically insulating)
+* Wrap in one layer of tesa (abrasion resistant)
 * Solder each to the tabs on the panel
-** Try to limit the amount of time you keep the soldering iron in contact with the cell
-** Use a soldering iron with a chisel tip (thicker than a regular tip)
-** Cover join with a piece of kapton tape
+* Try to limit the amount of time you keep the soldering iron in contact with the cell
+* Use a soldering iron with a chisel tip (thicker than a regular tip)
+* Cover join with a piece of kapton tape
 * Use a multimeter to identify which wire is positive and which is negative
 * Wire with bypass diode
 * Use a multimeter to measure how much voltage is being output 
