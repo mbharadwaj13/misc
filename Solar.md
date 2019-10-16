@@ -14,6 +14,8 @@ Photoelectric effect:
 * This creates an electron hole pair, and thus adds free carriers to the system
 * After a photon has sufficient wavelength to excite the cell, increasing number of photons increases power generation (photon downshifting can make use of higher energy photons by turning them into multiple lower energy, but still sufficiently energized, electrons, but that is beyond the scope of this discussion.)
 
+<img src="images/pasted image 0.png" alt="drawing" width="300"/>
+
 How a solar cell works::
 * Generation → Separation →Transport 
 * Generation: from the photoelectric effect; light is absorbed and excites electrons; creates free carriers
