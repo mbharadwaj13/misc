@@ -22,7 +22,7 @@ How a solar cell works::
 * Separation: the free carriers need to stay separated, recombining is bad
 * Transport: current flows through the material and through the load
  
-<add image>
+<img src="images/pasted image 0-2.png" alt="drawing" width="300"/>
 
 Types of solar cells:
 * We use SunPower’s 23.7% efficient monocrystalline silicon solar cells
@@ -46,6 +46,10 @@ What is an IV curve?
 * Fill factor (FF): the ratio of the power at a given point to the maximum theoretical power, which is given by V<sub>oc</sub>  x I<sub>sc</sub> (see diagram)
 * The efficiency of a cell is given by the max power over the input solar irradiance
 
+<img src="images/image20.png" alt="drawing" width="300"/>
+
+<img src="images/pasted image 0-3.png" alt="drawing" width="300"/>
+
 IV Curve Tester: we have two! One in Supernode, and one at the RFS need to go to the RFS and test during the day
 * Before integrating panels onto the car, we need to test them using the IV curve tester 
 * The IV curve tester attaches to the positive and negative leads of the solar cell
@@ -60,17 +64,26 @@ MPPTs:
 Practice Problem!
 Based on this graph, give the Voc, Isc, Fill Factor, Vmp, Imp, Pmax, and efficiency of the cell for each curve given the input power labeled and a (hypothetical) cell area of 2 m2.
 
+<img src="images/pasted image 0-4.png" alt="drawing" width="300"/>
+
 ### Section 3: Array Wiring
 
 * The array is split into sub-arrays, each of which has approximately the same amount of voltage 
 * Each sub-array (represented by a different colour) is connected in parallel
+
+<img src="images/pasted image 0-5.png" alt="drawing" width="300"/>
+
 * This diagram shows the wiring of the top subarray 
 * The purple lines indicate the internal wiring of each solar panel
 * In order to connect the solar panels to each other, we will solder flat wire to the tabs on each solar panel
 
+<img src="images/unnamed.png" alt="drawing" width="300"/>
+
 Bypass diodes:
 * All of the cells in a sub-array are connected in series, meaning the current that goes through all of the cells is the same. If one cell is shaded or damaged, the current through it will decrease. To prevent the whole output of the sub-array from being affected, the bypass diode allows the current to be diverted away from the shaded/damaged cell. 
 * Ideally, we want to have a bypass diode for every 4 cells (the small squares in the above diagram) however we are limited by the internal wiring. If the panel is completely internally wired, we can only connect 1 bypass diode across the panel. 
+
+<img src="images/pasted image 0-6.png" alt="drawing" width="300"/>
 
 ### Section 4: Wiring Panels
 
@@ -79,7 +92,7 @@ Handling solar panels:
 * Pick them up by the corners
 * Clean them with IPA, NOT Acetone
 
-**Solder a solar panel:**
+**[IGNORE FOR TODAY] Solder a solar panel:**
 * Work in groups of 2 or 3 and get a spare solar panel 
 * Make 2 pieces of wire
 * Cut 2 pieces of approximately 7 inch length flat wire
@@ -95,5 +108,5 @@ Handling solar panels:
 * Now shine light on the cell and remeasure the voltage. What do you observe?
 
 ## Conclusion
-Come to the RFS and work on building and integrating a mini solar array 
+You are ready to start working on a Solar task. 
 
